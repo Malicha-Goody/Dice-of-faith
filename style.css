@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Pacifico&display=swap');
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/backgroundvid.mp4");
+}
+
+.video-background {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.first{
+    text-align: center;
+    color: rgb(220, 232, 234);
+    font-size: 80px;
+}
+
+.players{
+    display: flex;
+    position: relative;
+    font-family: Pacifico;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
+/* .p1, .p2{
+  width: 100px;
+  object-fit: contain;
+}
+.p1 img{
+  width: 100%;
+}
+.p2 img{
+  width: 100%;
+} */
+
+#p1{
+position: sticky;
+}
